@@ -98,7 +98,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rainbow (2.1.0)
-    rake (0.9.6)
+    rake (12.3.3)
     redcarpet (3.3.4)
     relish (0.7.1)
       archive-tar-minitar (>= 0.5.2)
