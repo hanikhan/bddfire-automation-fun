@@ -105,7 +105,7 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.3.3)
-    redcarpet (3.3.4)
+    redcarpet (3.5.1)
     relish (0.7.1)
       archive-tar-minitar (>= 0.5.2)
       json (>= 1.4.6)
