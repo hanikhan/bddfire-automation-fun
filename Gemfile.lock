@@ -76,12 +76,16 @@ GEM
     json (1.8.3)
     magic_encoding (0.0.2)
     mime-types (2.99.1)
+    mini_portile2 (2.5.3)
     minitest (5.9.0)
     multi_json (1.12.0)
     multi_test (0.1.2)
     netrc (0.11.0)
-    nokogiri (1.5.9)
-    nokogiri (1.5.9-x86-mingw32)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.4-x86-mingw32)
+      racc (~> 1.4)
     parallel (1.8.0)
     parallel_tests (2.5.0)
       parallel
@@ -94,6 +98,7 @@ GEM
       websocket-driver (>= 0.2.0)
     powerpack (0.1.1)
     public_suffix (4.0.6)
+    racc (1.5.2)
     rack (2.2.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -186,7 +191,7 @@ DEPENDENCIES
   cuke_sniffer
   json
   magic_encoding
-  nokogiri (= 1.5.9)
+  nokogiri (= 1.11.4)
   parallel_tests
   poltergeist
   rake
