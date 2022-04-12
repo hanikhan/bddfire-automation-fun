@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-gem 'nokogiri', '1.12.5'
+gem 'nokogiri', '1.13.4'
 gem 'cucumber'
 gem 'capybara'
 gem 'bddfire'
