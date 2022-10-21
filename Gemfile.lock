@@ -81,10 +81,10 @@ GEM
     multi_json (1.12.0)
     multi_test (0.1.2)
     netrc (0.11.0)
-    nokogiri (1.13.5)
+    nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.5-x86-mingw32)
+    nokogiri (1.13.9-x86-mingw32)
       racc (~> 1.4)
     parallel (1.8.0)
     parallel_tests (2.5.0)
@@ -192,7 +192,7 @@ DEPENDENCIES
   cuke_sniffer
   json
   magic_encoding
-  nokogiri (= 1.13.5)
+  nokogiri (= 1.13.9)
   parallel_tests
   poltergeist
   rake
